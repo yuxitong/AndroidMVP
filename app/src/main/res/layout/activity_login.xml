@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.youbang.activity.LoginActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+       >
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="100dp"
+            android:background="@mipmap/login_log" />
+
+        <EditText
+            android:id="@+id/userEdit"
+            android:layout_width="280dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/style_input_text"
+            android:hint="用户名"
+            android:paddingLeft="20dp"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/passWord"
+            android:layout_width="280dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/style_input_text"
+            android:hint="密码"
+            android:paddingLeft="20dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/colorAppMainTone"
+            android:text="* 测试字体"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="280dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/style_commit_button"
+            android:text="登录"
+            android:textColor="@android:color/white"
+            android:onClick="onClickButton"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

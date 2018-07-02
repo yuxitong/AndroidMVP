@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_login_logo_margin_top">58dp</dimen>
+    <dimen name="activity_navigationbar_hight">44dp</dimen>
+    <dimen name="activity_navigationbar_paddingtop">10dp</dimen>
+    <dimen name="fragment_mine_background">248dp</dimen>
+    <dimen name="fragment_mine_touxiang_margintop">38dp</dimen>
+</resources>
