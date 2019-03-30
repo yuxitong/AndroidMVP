@@ -2,12 +2,18 @@
 #include <string>
 
 extern "C"
-JNIEXPORT jstring
+JNIEXPORT jstring JNICALL
+Java_com_yxt_network_NetUrl_stringFromJNI(JNIEnv *env, jobject instance, jint num) {
 
-JNICALL
-Java_com_youbang_MainActivity_stringFromJNI(
-        JNIEnv *env,
-        jobject /* this */) {
-    std::string hello = "Hello from C++";
+    std::string hello;
+    std::string net = "https://app.yxt.com/app/";
+    switch (num) {
+        case 0:
+            hello = "https://app.xiaozhenkj.com/app/";
+            break;
+        case 1:
+            hello = net + "login/";
+            break;
+    }
     return env->NewStringUTF(hello.c_str());
 }

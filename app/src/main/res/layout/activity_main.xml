@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.youbang.activity.MainActivity">
+    tools:context="com.yxt.activity.MainActivity">
 
     <android.support.v7.widget.ContentFrameLayout
         android:id="@+id/frameLayout"

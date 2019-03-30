@@ -2,6 +2,9 @@
 <resources>
     <!--<dimen name="activity_navigationbar_paddingtop">22dp</dimen>-->
     <dimen name="fragment_mine_background">270dp</dimen>
-    <dimen name="activity_navigationbar_hight">44dp</dimen>
+    <dimen name="activity_navigationbar_hight">64dp</dimen>
     <dimen name="fragment_mine_touxiang_margintop">60dp</dimen>
+    <dimen name="activity_navigarionbar_title_margintop">20dp</dimen>
+    <dimen name="activity_navigarionbar_back_margintop">10dp</dimen>
+
 </resources>

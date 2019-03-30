@@ -7,4 +7,6 @@
     <dimen name="activity_navigationbar_paddingtop">10dp</dimen>
     <dimen name="fragment_mine_background">248dp</dimen>
     <dimen name="fragment_mine_touxiang_margintop">38dp</dimen>
+    <dimen name="activity_navigarionbar_title_margintop">0dp</dimen>
+    <dimen name="activity_navigarionbar_back_margintop">-10dp</dimen>
 </resources>
