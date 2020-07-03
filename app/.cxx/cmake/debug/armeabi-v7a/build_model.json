@@ -5,7 +5,6 @@
       "sdkFolder": "F:\\sdk",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
-      "ideBuildTargetAbi": "armeabi-v7a,armeabi",
       "splitsAbiFilterSet": [],
       "intermediatesFolder": "C:\\Users\\yxt\\Desktop\\flv-js\\AndroidMVP\\app\\build\\intermediates",
       "gradleModulePathName": ":app",
@@ -42,7 +41,10 @@
     "gradleBuildOutputFolder": "C:\\Users\\yxt\\Desktop\\flv-js\\AndroidMVP\\app\\.cxx\\cxx\\debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARMEABI_V7A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "buildTargetSet": []
   },

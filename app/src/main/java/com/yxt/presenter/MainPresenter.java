@@ -1,8 +1,5 @@
 package com.yxt.presenter;
 
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTabHost;
-import android.support.v7.widget.ContentFrameLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +12,10 @@ import com.yxt.contract.MainContract;
 import com.yxt.fragment.MineFragment;
 import com.yxt.fragment.SafetyFragment;
 import com.yxt.fragment.VehicleFragment;
+
+import androidx.appcompat.widget.ContentFrameLayout;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentTabHost;
 
 /**
  * Created by 30884 on 2018/5/16.

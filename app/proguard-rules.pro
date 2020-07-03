@@ -53,6 +53,8 @@
 -keep public class * extends android.app.backup.BackupAgentHelper
 -keep public class * extends android.preference.Preference
 -keep public class com.android.vending.licensing.ILicensingService
+-keep class androidx.** {*;}
+-keep public class * implements androidx.versionedparcelable.VersionedParcelable
  #如果有引用v4包可以添加下面这行
 -keep public class * extends android.support.v4.app.Fragment
  #忽略警告
@@ -115,7 +117,7 @@
 
 #####################记录生成的日志数据,gradle build时在本项目根目录输出################
 #apk 包内所有 class 的内部结构
--dump class_files.txt
+#-dump class_files.txt
 
 #未混淆的类和成员
 -printseeds seeds.txt

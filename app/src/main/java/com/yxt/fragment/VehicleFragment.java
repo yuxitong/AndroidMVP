@@ -1,7 +1,6 @@
 package com.yxt.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +10,8 @@ import com.yxt.R;
 import com.yxt.base.BaseActivity;
 import com.yxt.base.BaseFragment;
 import com.yxt.base.BaseViewPresenter;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by 30884 on 2018/5/16.

@@ -1,13 +1,14 @@
 package com.yxt.activity;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentTabHost;
-import android.support.v7.widget.ContentFrameLayout;
 
 import com.yxt.R;
 import com.yxt.base.BaseActivity;
 import com.yxt.contract.MainContract;
 import com.yxt.presenter.MainPresenter;
+
+import androidx.appcompat.widget.ContentFrameLayout;
+import androidx.fragment.app.FragmentTabHost;
 
 public class MainActivity extends BaseActivity<MainContract.View,MainPresenter> implements MainContract.View {
 

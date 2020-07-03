@@ -4,8 +4,6 @@ import android.app.ActivityManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -15,6 +13,9 @@ import com.yxt.view.BarButtonItem;
 import com.yxt.view.NavigationBar;
 
 import java.util.List;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentActivity;
 
 /**
  * Created by 30884 on 2018/5/11.
