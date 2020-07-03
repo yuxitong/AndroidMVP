@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Users\\yxt\\Desktop\\flv-js\\AndroidMVP\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "F:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\yxt\\Desktop\\flv-js\\AndroidMVP\\app\\.cxx\\cmake\\release\\x86 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "F:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\yxt\\Desktop\\flv-js\\AndroidMVP\\app\\.cxx\\cmake\\release\\x86 --target native-lib",
+      "abi": "x86",
+      "output": "C:\\Users\\yxt\\Desktop\\flv-js\\AndroidMVP\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

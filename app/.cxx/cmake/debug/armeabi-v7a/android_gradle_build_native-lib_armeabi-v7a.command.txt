@@ -1,0 +1,8 @@
+Executable : F:\sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+--build
+C:\Users\yxt\Desktop\flv-js\AndroidMVP\app\.cxx\cmake\debug\armeabi-v7a
+--target
+native-lib
+jvmArgs : 
+
